@@ -18,13 +18,13 @@ graph TD
     B -->|Event Data| C{Debounce Service}
     C -->|Wait for interval| C
     C -->|Batch Threshold Reached| D[Batch Processor]
-    D -->|Filtered/Processed JSON| E((External Systems API))
+    D -->|"Filtered/Processed JSON"| E((External Systems API))
     
     F[app-config.json] --> C
-    G[monitor-config.sh (inotify)] -->|Watches| F
+    G["monitor-config.sh (inotify)"] -->|Watches| F
     G -.->|Signals Reload| C
     
-    H[Express Route /api/status] --> C
+    H["Express Route /api/status"] --> C
 ```
 
 ## Event Flow Explanation
