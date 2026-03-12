@@ -1,0 +1,5 @@
+{
+  "debounceIntervalMs": 5000,
+  "targetCollection": "users",
+  "maxBatchSize": 100
+}
