@@ -1,0 +1,65 @@
+CHANGE DATA CAPTURE (CDC) SYSTEM   COURSE : BTECH CS 3 rd  YEAR SEMESTER : 6 th SECTION : L TEAM MEMBERS :                       1.  BHAVNA GAUTAM (2315000610)                      2.  BHAWANA GUPTA  (2315000616)                      3.   BHOOMI  (2315000617)                      4.   BHOOMI SHARMA (2315000620)                       5.   DAKSHESH (2315000671) 
+
+--- Slide ---
+
+Git – Significant Role  Track configuration files  Maintain version history  Enable rollback   Main Role: Safe configuration management 
+
+--- Slide ---
+
+Unix  I notify  – Significant Role  Detect file changes  Notify system automatically  Trigger update s   Main Role: File change notifier 
+
+--- Slide ---
+
+Debouncing – Unique Feature Problem: Too many rapid updates cause overload.   Solution:  Collect rapid changes  Combine into batch  Send together   Benefits: Stable, fast, efficient system 
+
+--- Slide ---
+
+Debezium  – Optional Advanced Tool  Advanced CDC platform  Real-time data streaming  Large-scale replication support 
+
+--- Slide ---
+
+Unique Features of Our Project  Real-time change detection  Asynchronous processing  Debouncing mechanism  Eventual consistency  Git-based configuration tracking   I notify  file monitoring 
+
+--- Slide ---
+
+Example Applications  Data replication  Microservices communication  Real-time dashboards  Audit logging  Cache synchronization 
+
+--- Slide ---
+
+Conclusion  Automatic database change detection  Efficient background processing  Reduced system load  Consistent and scalable architecture A Modern, Reliable CDC System 
+
+--- Slide ---
+
+Using MongoDB, Express, Node.js &amp; Git CHANGE DATA CAPTURE SYSTEM 
+
+--- Slide ---
+
+What We Will Do in This Project  Detect database changes automatically  Capture insert, update, delete  Process changes in backend  Send data to other systems  Reduce load using debouncing  Track configuration using Git 
+
+--- Slide ---
+
+What is CDC? Change Data Capture means: When data changes in the database, the system automatically detects and processes it. No manual checking needed. 
+
+--- Slide ---
+
+Main Technologies Used  MongoDB  Express.js  Node.js   Debezium  Git  Unix  I notify  Shell Scripts 
+
+--- Slide ---
+
+MongoDB – Significant Role  Stores application data  Detects changes using Change Streams  Emits real-time events   Main Role: Real-time change provider 
+
+--- Slide ---
+
+Express.js – Significant Role  Receives CDC events  Handles API requests  Forwards data for processing   Main Role: Manage incoming events 
+
+--- Slide ---
+
+Node.js – Significant Role  Asynchronous event processing  Background task handling  Maintains eventual consistency   Main Role: Efficient background processor 
+
+--- Slide ---
+
+Shell Scripts – Significant Role  Filter unwanted data  Transform data format  Prepare clean output   Main Role: Data transformation layer 
+
+--- Slide ---
+
+
