@@ -4,8 +4,8 @@
   "description": "Change Data Capture (CDC) System for MongoDB",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node run-with-memory-db.js",
+    "dev": "nodemon run-with-memory-db.js"
   },
   "keywords": [
     "cdc",
@@ -19,6 +19,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongodb": "^6.5.0",
+    "mongodb-memory-server": "^11.0.1",
     "pdf-parse": "^2.4.5",
     "puppeteer": "^24.40.0"
   },
